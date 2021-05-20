@@ -44,7 +44,7 @@ namespace CountWords
             // Создаем Словарь, где слово - ключ, количество его использований в тексте - значение 
             var word_count = new Dictionary<string, int>();
 
-            foreach (var word in words)
+            foreach (var word in words)  
             {
                 if (word_count.ContainsKey(word))
                     word_count[word]++;
